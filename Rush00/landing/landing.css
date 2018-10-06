@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.text
+{
+    background: rgba(243, 127, 146, 0.356);
+    position: relative;
+    width: 60%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 400%;
+    bottom: 155%;
+    left: 55%;
+}
+.black_backg
+{
+    position: relative;
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    bottom: 100%;
+}
+.video
+{
+    position: relative;   
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.sloth_head
+{ 
+    /* background: yellow; */
+    height: 50%;
+    position: absolute;
+    top: 1%;
+    left: 0%;
+}
+.sloth_head img:hover
+{
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+}
+.sloth_head img 
+{
+    height: 30%;
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    -ms-transition: all 3s ease-in-out;
+ }
+ .sloth_head2
+{ 
+    /* background: yellow; */
+    height: 25%;
+    width: 25%;
+    position: relative;
+    bottom: 185%;
+    left: 0%;
+}
+.sloth_head2 img:hover
+{
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+}
+.sloth_head2 img 
+{
+    height: 60%;
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    -ms-transition: all 3s ease-in-out;
+ }
+ .login
+ {
+     text-align: center;
+     position: relative;
+     /* background-color: aqua; */
+     color: white;
+     bottom: 15px;
+ }
+ .browse
+ {
+    text-align: center;
+    position: relative;
+    /* background-color: aqua; */
+    color: white;
+    bottom: 15px;
+    width: 65%;
+ }
+body
+{
+    height: 100vh;
+    width: 100vh;
+}

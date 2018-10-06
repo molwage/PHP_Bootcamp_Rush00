@@ -1,0 +1,59 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.black_backg
+{
+    position: relative;
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    bottom: 100%;
+}
+.video
+{
+    position: relative;   
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.login_block
+{
+    background-color: rgba(243, 127, 146, 0.356);
+    border-radius: 10px; 
+    position: relative;
+    bottom: 180%;
+    left: 38%;
+    height: 40vh;
+    width: 20vw;
+}
+.text
+{
+    position: relative;
+    left: 25%;
+}
+
+input[type=text]
+{
+    width: 50%;
+    height: 8%;
+    border: 2px;
+    border-radius: 4px;
+}
+.Login text
+{
+    color: white;
+    font-size: 20%;
+}
+button
+{
+    width: 17%;
+    height: 6%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    border: none;
+    background: linear-gradient(90deg, #69c0e9, #e973b6, #f0df4c, #69c0e9);
+}
